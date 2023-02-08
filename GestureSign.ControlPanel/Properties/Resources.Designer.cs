@@ -19,7 +19,7 @@ namespace GestureSign.ControlPanel.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -95,15 +95,16 @@ namespace GestureSign.ControlPanel.Properties {
         ///    &lt;Author&gt;GestureSign&lt;/Author&gt;
         ///    &lt;Description&gt;Run GestureSign on startup with elevated privilege.&lt;/Description&gt;
         ///  &lt;/RegistrationInfo&gt;
-        ///  &lt;Triggers /&gt;
+        ///  &lt;Triggers&gt;
+        ///    &lt;LogonTrigger&gt;
+        ///      &lt;Enabled&gt;true&lt;/Enabled&gt;
+        ///      &lt;Delay&gt;PT5S&lt;/Delay&gt;
+        ///    &lt;/LogonTrigger&gt;
+        ///  &lt;/Triggers&gt;
         ///  &lt;Principals&gt;
         ///    &lt;Principal id=&quot;Author&quot;&gt;
         ///      &lt;LogonType&gt;InteractiveToken&lt;/LogonType&gt;
-        ///      &lt;RunLevel&gt;HighestAvailable&lt;/RunLevel&gt;
-        ///    &lt;/Principal&gt;
-        ///  &lt;/Principals&gt;
-        ///  &lt;Settings&gt;
-        ///    &lt;MultipleInstances [rest of string was truncated]&quot;;.
+        ///     [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string StartGestureSignTask {
             get {

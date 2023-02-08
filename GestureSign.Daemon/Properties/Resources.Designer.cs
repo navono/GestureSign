@@ -19,7 +19,7 @@ namespace GestureSign.Daemon.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -72,16 +72,16 @@ namespace GestureSign.Daemon.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
-        ///&lt;Language DisplayName=&quot;English&quot; Culture=&quot;en&quot; Version=&quot;0.13&quot;&gt;
+        ///&lt;Language DisplayName=&quot;English&quot; Culture=&quot;en&quot; Version=&quot;0.14&quot;&gt;
         ///  &lt;Messages&gt;
         ///    &lt;Error&gt;Error&lt;/Error&gt;
+        ///    &lt;ContactCountError&gt;Can not get the number of contacts! Please try to reinstall the device driver!&lt;/ContactCountError&gt;
+        ///    &lt;ComponentNotFoundMessage&gt;Can not find {0}.Try to redownload or reinstall GestureSign.&lt;/ComponentNotFoundMessage&gt;
         ///  &lt;/Messages&gt;
         ///  &lt;TrayMenu&gt;
         ///    &lt;Disable&gt;Disable GestureSign&lt;/Disable&gt;
         ///    &lt;ControlPanel&gt;Control Panel&lt;/ControlPanel&gt;
-        ///    &lt;Exit&gt;Exit&lt;/Exit&gt;
-        ///  &lt;/TrayMenu&gt;
-        ///&lt;/Language&gt;.
+        ///    &lt;E [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string en {
             get {
